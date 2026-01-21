@@ -69,10 +69,10 @@ export const HowItWorks: React.FC = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
         }`}>
           <h2 className="text-4xl sm:text-5xl font-bold text-neutral-900 mb-4">
-            Как это работает
+            Возможности
           </h2>
           <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-            Всё необходимое для эффективного мониторинга упоминаний вашего бренда
+            Всё необходимое, чтобы превращать чужие новости в свой трафик
           </p>
         </div>
 

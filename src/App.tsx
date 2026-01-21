@@ -4,7 +4,6 @@ import { Hero } from './components/Hero'
 import { MissedOpportunities } from './components/MissedOpportunities'
 import { HowItWorks } from './components/HowItWorks'
 import { Sources } from './components/Sources'
-import { Features } from './components/Features'
 import { Pricing } from './components/Pricing'
 import { Footer } from './components/Footer'
 
@@ -22,7 +21,6 @@ function App() {
         <MissedOpportunities />
         <HowItWorks />
         <Sources />
-        <Features />
         <Pricing />
         <Footer />
       </div>

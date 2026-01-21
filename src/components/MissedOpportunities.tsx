@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Bell, PenTool, TrendingUp } from 'lucide-react'
+import { Bell, PenTool, TrendingUp, BarChart } from 'lucide-react'
 
 export const MissedOpportunities: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -37,6 +37,11 @@ export const MissedOpportunities: React.FC = () => {
       icon: TrendingUp,
       title: 'Ловите волну',
       description: 'Алгоритмы продвигают контент на трендовые темы. Вы в потоке — вас смотрят, читают, покупают'
+    },
+    {
+      icon: BarChart,
+      title: 'Анализируете',
+      description: 'Сохраняете публикации, сравниваете охваты, находите темы-winners и выжимаете из них максимум повторными материалами'
     }
   ]
 
