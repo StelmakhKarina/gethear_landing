@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
+import { MissedOpportunities } from './components/MissedOpportunities'
 import { HowItWorks } from './components/HowItWorks'
 import { Sources } from './components/Sources'
 import { Features } from './components/Features'
@@ -18,6 +19,7 @@ function App() {
       <div className="relative z-10">
         <Header />
         <Hero />
+        <MissedOpportunities />
         <HowItWorks />
         <Sources />
         <Features />
