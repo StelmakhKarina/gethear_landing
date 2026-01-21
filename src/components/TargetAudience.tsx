@@ -4,7 +4,7 @@ import { Building2, Briefcase, UserCheck, TrendingUp } from 'lucide-react'
 const targetAudiences = [
   {
     icon: Building2,
-    title: 'Малый бизнес',
+    title: 'Малый и средний бизнес',
     description: 'Нет бюджета на рекламу и PR-отдел — но есть экспертиза. Ньюсджекинг даёт охваты бесплатно, если успеть первым.'
   },
   {

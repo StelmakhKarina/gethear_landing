@@ -3,6 +3,21 @@ import { Send, Users, Newspaper, MessageSquare, FileText, Star } from 'lucide-re
 
 const sources = [
   {
+    icon: Newspaper,
+    name: 'СМИ и новостные портали',
+    description: 'Федеральные, региональные, по индустриям'
+  },
+  {
+    icon: FileText,
+    name: 'Блоги',
+    description: 'Habr, VC, Пикабу и другие блоги'
+  },
+  {
+    icon: MessageSquare,
+    name: 'Форумы',
+    description: 'Обсуждения'
+  },
+  {
     icon: Send,
     name: 'Telegram',
     description: 'Каналы и чаты'
@@ -12,21 +27,9 @@ const sources = [
     name: 'ВКонтакте',
     description: 'Группы и посты'
   },
-  {
-    icon: Newspaper,
-    name: 'Новостные сайты',
-    description: 'СМИ и порталы'
-  },
-  {
-    icon: MessageSquare,
-    name: 'Форумы',
-    description: 'Обсуждения'
-  },
-  {
-    icon: FileText,
-    name: 'Блоги',
-    description: 'Статьи и посты'
-  },
+
+
+
   {
     icon: Star,
     name: 'Отзовики',

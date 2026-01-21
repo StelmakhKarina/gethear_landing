@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Check, Send } from 'lucide-react'
+import { Send } from 'lucide-react'
 
 export const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -22,10 +22,13 @@ export const Hero: React.FC = () => {
           </p>
           {/* CTA Button */}
           <div className={`transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-            <button className="group inline-flex items-center gap-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-lg shadow-primary-500/30 hover:shadow-xl hover:shadow-primary-500/40 transition-all duration-300 hover:scale-105">
+            <a 
+              href="#waitlist"
+              className="group inline-flex items-center gap-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-lg shadow-primary-500/30 hover:shadow-xl hover:shadow-primary-500/40 transition-all duration-300 hover:scale-105"
+            >
               <Send className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               Записаться в лист ожидания
-            </button>
+            </a>
             
             <div className="mt-2 text-xs text-neutral-500">
               Запуск в 1Q 2026. Первые получат бонус!

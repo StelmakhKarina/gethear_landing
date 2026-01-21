@@ -5,7 +5,8 @@ import { MissedOpportunities } from './components/MissedOpportunities'
 import { HowItWorks } from './components/HowItWorks'
 import { Sources } from './components/Sources'
 import { TargetAudience } from './components/TargetAudience'
-import { Pricing } from './components/Pricing'
+import { ComparisonTable } from './components/ComparisonTable'
+import { Waitlist } from './components/Waitlist'
 import { Footer } from './components/Footer'
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
         <HowItWorks />
         <Sources />
         <TargetAudience />
-        <Pricing />
+        <ComparisonTable />
+        <Waitlist />
         <Footer />
       </div>
     </div>

@@ -28,24 +28,21 @@ export const Header: React.FC = () => {
 
           {/* Navigation - Centered */}
           <nav className="hidden md:flex items-center justify-center gap-8">
-            <a href="#how-it-works" className="text-neutral-700 hover:text-primary-500 transition-colors font-medium whitespace-nowrap">
-              Как работает
+            <a href="#how-it-works" className="text-neutral-700 hover:text-primary-500 transition-colors font-medium">
+              Возможности
             </a>
             <a href="#sources" className="text-neutral-700 hover:text-primary-500 transition-colors font-medium">
               Источники
             </a>
-            <a href="#features" className="text-neutral-700 hover:text-primary-500 transition-colors font-medium">
-              Возможности
-            </a>
-            <a href="#pricing" className="text-neutral-700 hover:text-primary-500 transition-colors font-medium">
-              Тарифы
+            <a href="#target-audience" className="text-neutral-700 hover:text-primary-500 transition-colors font-medium whitespace-nowrap">
+              Для кого
             </a>
           </nav>
 
           {/* Telegram Link */}
           <div className="justify-self-end">
             <a 
-              href="https://t.me/gethears" 
+              href="https://t.me/+6GvC5Ymr12A2YmYy" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 group"
