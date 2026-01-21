@@ -26,17 +26,17 @@ export const MissedOpportunities: React.FC = () => {
     {
       icon: Bell,
       title: 'Узнаёте сразу',
-      description: 'Уведомление в Telegram в момент публикации новости по вашим темам'
+      description: 'Уведомление в Telegram в момент публикации новости по вашим ключевым словам'
     },
     {
       icon: PenTool,
       title: 'Пишете первым',
-      description: 'Пост, комментарий, сторис — пока тема горячая'
+      description: 'Статью, комментарий, новость — пока тема горячая'
     },
     {
       icon: TrendingUp,
       title: 'Ловите волну',
-      description: 'Алгоритмы продвигают контент на трендовые темы. Вы в потоке — вас смотрят, читают, покупают.'
+      description: 'Алгоритмы продвигают контент на трендовые темы. Вы в потоке — вас смотрят, читают, покупают'
     }
   ]
 
@@ -62,12 +62,31 @@ export const MissedOpportunities: React.FC = () => {
         </div>
 
         {/* Подзаголовок */}
-        <div className={`text-center mb-12 transition-all duration-700 delay-200 ${
+        <div className={`text-center mb-8 transition-all duration-700 delay-200 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
         }`}>
           <h3 className="text-3xl sm:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-600">
           Ньюсджекинг — PR, который продаёт здесь и сейчас
           </h3>
+        </div>
+
+        {/* Примеры */}
+        <div className={`max-w-3xl mx-auto mb-12 transition-all duration-700 delay-250 ${
+          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+        }`}>
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 md:p-8 shadow-xl shadow-primary-100/50 border border-primary-100">
+            <div className="space-y-4 text-lg text-neutral-700 leading-relaxed">
+              <p>
+                <span className="font-semibold text-neutral-900">Новость в отрасли</span> → пишите экспертный комментарий → вас цитируют СМИ
+              </p>
+              <p>
+                <span className="font-semibold text-neutral-900">Проблемы у конкурента</span> → вы пишете «почему у нас по-другому» → его клиенты идут к вам
+              </p>
+              <p>
+                <span className="font-semibold text-neutral-900">Тренд в нише</span> → ваше мнение → тысячи просмотров бесплатно
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Временная линия с тремя шагами */}
